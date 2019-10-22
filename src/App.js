@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter';
+import CounterWithReduxState from './components/CounterWithReduxState';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Counter />
+        {/* <Counter /> */}
+        <CounterWithReduxState/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,6 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
+      
     </div>
   );
 }
